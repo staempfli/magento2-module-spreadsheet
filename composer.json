@@ -1,0 +1,27 @@
+{
+  "name": "staempfli/magento2-module-spreadsheet",
+  "description": "Magento 2 Module for parsing xlsx, xlsm and csv files from Excel",
+  "require": {
+    "php": "~7.0.0",
+    "akeneo-labs/spreadsheet-parser": "^1.2"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Marcel Hauri",
+      "email": "marcel.hauri@staempfli.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Staempfli\\Spreadsheet\\": ""
+    }
+  }
+}
